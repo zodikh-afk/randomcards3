@@ -64,7 +64,7 @@ function showCardOnce(player, card, isFinal) {
 
 // Пролистывание нескольких карт
 function drawCards(player, count) {
-    const flipDuration = 700; // мс между картами
+    const flipDuration = 1000; // мс между картами
     let delay = 0;
     let finalCard = null;
 
@@ -129,3 +129,4 @@ function resetCard(player) {
     front.className = 'card-face card-front';
     front.innerHTML = ''; // спрятана, видна рубашка
 }
+
